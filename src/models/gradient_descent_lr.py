@@ -10,7 +10,7 @@ from sklearn.linear_model import LinearRegression
 import sys
 sys.path.append("src/data")
 
-from ingest import load_and_validate_data
+from ingest import load_and_validate_data # type: ignore
 
 
 def compute_cost(X, y, w):
